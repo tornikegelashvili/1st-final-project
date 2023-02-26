@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="sign-up__form">
+        <div class="container">
+            <form class="sign-up__inner" id="sign-up__inner">
+                <div class="sign-up__top">
+                    <h1 class="title">Signup</h1>
+                    <p class="subtitle">There is no charge upon registration!</p>
+                </div><!-- ./sign-up__top -->
+                <div class="sign-up__middle">
+                    <div class="form-group">
+                        <label class="label" for="email">Email Address</label>
+                        <input id="email" type="email" placeholder="hello@mysite.com">
+                    </div>
+                    <div class="form-group">
+                        <label  class="label" for="coutries">Coutry</label>
+                        <select name="coutries" id="coutries-select">
+                            <option value="">Germay</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Frace">Frace</option>
+                            <option value="Denmark">Denmark</option>
+                            <option value="UnitedKingdom">United Kingdom</option>
+                        </select>
+                    </div>
+                    <div class="inline-form_groups">
+                        <div class="form-group">
+                            <label  class="label" for="city">City</label>
+                            <input id="city" type="text" placeholder="Berlin">
+                        </div>
+                        <div class="form-group">
+                            <label  class="label" for="zipCode">Zip Code</label>
+                            <input id="zipCode" type="number" placeholder="10178">
+                        </div>
+                    </div><!-- ./inline-form_groups -->
+                    <button id="onSubmitButton" class="btn sign-up__button" type="submit">Signup now</button>
+                    <p id="result"></p>
+                </div><!-- ./sign-up__middle -->
+                <div class="sign-up__bottom">
+                    <div class="sign-up__bottom__buttons">
+                        <div class="facebook-btn">
+                            <button class="btn facebook-btn__first">Signup with Facebook</button>
+                        </div>
+                        <div class="facebook-btn">
+                            <button class="btn facebook-btn__second">Signup with Facebook</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
